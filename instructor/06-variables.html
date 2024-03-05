@@ -376,7 +376,7 @@ using <code>ZIPF_SRC</code> as the variable name.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><a href="../files/code/06-variables-challenge/Makefile">This
 Makefile</a> contains a solution to this challenge.</p>
@@ -401,9 +401,9 @@ using:</p>
 <div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> make clean</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> make dats</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> make results.txt</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">$</span> make clean</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="ex">$</span> make dats</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a><span class="ex">$</span> make results.txt</span></code></pre>
 </div>
 <p>We have separated the configuration of our Makefile from its rules –
 the parts that do all the work. If we want to change our script name or
@@ -411,13 +411,12 @@ how it is executed we just need to edit our configuration file, not our
 source code in <code>Makefile</code>. Decoupling code from configuration
 in this way is good programming practice, as it promotes more modular,
 flexible and reusable code.</p>
-<div id="where-we-are" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="where-we-are" class="callout-inner">
-<h3 class="callout-title">Where We Are<a class="anchor" aria-label="anchor" href="#where-we-are"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="where-we-are">Where We Are<a class="anchor" aria-label="anchor" href="#where-we-are"></a></h3>
 <div class="callout-content">
 <p><a href="../files/code/06-variables/Makefile">This Makefile</a> and <a href="../files/code/06-variables/config.mk">its accompanying
 <code>config.mk</code></a> contain all of our work so far.</p>
@@ -499,7 +498,7 @@ flexible and reusable code.</p>
   "identifier": "https://preview.carpentries.org/make-novice/instructor/06-variables.html",
   "dateCreated": "2023-04-24",
   "dateModified": "2023-04-24",
-  "datePublished": "2024-02-27"
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
